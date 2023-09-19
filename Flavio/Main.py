@@ -62,7 +62,7 @@ def main():
             if aspasOpen == True:
                 print("ERRO")
             else:
-                pos = findID(IDslot.pop())
+                pos = findID(IDslot.__getitem__(0))
                 ID.__getitem__(pos).setValor(lexema)
                 lexema = ""
         else:
