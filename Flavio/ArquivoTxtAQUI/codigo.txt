@@ -1,2 +1,0 @@
-int opa = 10;
-boolean seila = true;

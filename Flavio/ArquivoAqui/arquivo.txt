@@ -1,0 +1,3 @@
+int opa = 10;
+boolean ola = false;
+String txt = "texto";
