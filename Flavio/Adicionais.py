@@ -34,7 +34,7 @@ class Variavel:
 
 def getCode():
     code = ""
-    with open('ArquivoAqui/arquivo.txt', 'r') as arquivo:
+    with open('Flavio/ArquivoAqui/arquivo.txt', 'r') as arquivo:
         for v in arquivo:
             code += v
     
