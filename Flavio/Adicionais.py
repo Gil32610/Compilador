@@ -36,6 +36,7 @@ def getCode():
     code = ""
     with open('Flavio/ArquivoAqui/arquivo.txt', 'r') as arquivo:
         for v in arquivo:
-            code += v
+            if v != ' ':
+                code += v
     
     return code

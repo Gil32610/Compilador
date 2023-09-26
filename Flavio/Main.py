@@ -71,6 +71,7 @@ def main():
             else: #se ta em outra linha e aspas ta aberto, erro
                 if aspasOpen == True:
                     print("ERRO")
+                    break
 
 
 
