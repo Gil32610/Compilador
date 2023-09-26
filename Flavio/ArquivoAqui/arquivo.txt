@@ -1,1 +1,2 @@
-String txt = "texto;
+String ndn = "texto";
+boolean variavel1 = true;
