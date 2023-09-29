@@ -1,2 +1,16 @@
-String ndn = "texto";
-boolean variavel1 = true;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String args[]){
+        Scanner in = new Scanner();
+        String ndn = "texto";        // "coment"
+        String txt = in.next();
+        boolean variavel1 = true;
+        if (variavel1){
+            System.out.println(ndn + txt);
+        }
+        while(true){
+
+        }
+    }
+}

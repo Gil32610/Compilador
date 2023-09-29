@@ -3,7 +3,7 @@ class token:
     def __init__(self, dict) -> None:
         self.tolken_table = []
         self.dict = dict
-        
+        self.enders = [';', '{', '}']
         
     def add(self, input: str) -> None:
         if input in self.dict.reserved_word_dict:
